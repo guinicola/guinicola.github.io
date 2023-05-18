@@ -1,0 +1,6 @@
+/node_modules
+/.fleet
+/.idea
+/.vscode
+.DS_STORE
+package-lock.json
