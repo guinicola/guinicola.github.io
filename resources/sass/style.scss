@@ -79,6 +79,11 @@ img{
 section{
     padding: 20vh 0;
 }
+@media screen and (max-width:992px) {
+    section{
+        padding: 10vh 0;
+    }
+}
 
 #presentation{
     padding: 10vh 0;
