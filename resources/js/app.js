@@ -67,5 +67,14 @@ function getProjectData(id) {
     
 
     var myModal = new bootstrap.Modal(document.getElementById('projectModal'))
-    myModal.show()
+    myModal.show();
+    gtag("event", "view_item", {
+        // Parâmetros no nível do evento
+        items: [
+          {
+            item_id: id,
+            item_name: title,
+          }
+        ]
+      });
 }
