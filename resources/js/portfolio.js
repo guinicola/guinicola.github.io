@@ -1,11 +1,43 @@
 const dataProjects = [
     {
+        "id":14,
+        "name":"Ksolda",
+        "url" : "https://ksolda.tribox.info/",
+        "cover": "assets/images/ksolda.jpg",
+        "description" : "<p>Institucional desenvolvido na <b>Tribox</b>, para a <b>Ksolda</b>.</p>",
+        "techs": ["wordpress","php","tailwindcss"]
+    },
+    {
+        "id":11,
+        "name":"Concessionária <br> Novo Litoral",
+        "url" : "https://novolitoral.com.br/",
+        "cover": "assets/images/novo-litoral.jpg",
+        "description" : "<p>Institucional desenvolvido na <b>Tribox</b>, para a <b>Novo Litoral</b>.</p>",
+        "techs": ["wordpress","php","tailwindcss", "js","OpenStreetMaps"]
+    },
+    {
+        "id":10,
+        "name":"Universo dos Baloes",
+        "url" : "https://universodosbaloes.com.br/",
+        "cover": "assets/images/universo-dos-baloes.jpg",
+        "description" : "<p>Institucional desenvolvido na <b>Tribox</b>, para o <b>Universo dos Balões</b>.</p>",
+        "techs": ["php","tailwindcss"]
+    },
+    {
+        "id":12,
+        "name":"Funerária Jauense",
+        "url" : "https://funerariajauense.com.br/",
+        "cover": "assets/images/funeraria-jauense.jpg",
+        "description" : "<p>Institucional desenvolvido na <b>Tribox</b>, para a <b>Funerária Jauense</b>.</p>",
+        "techs": ["wordpress","php","tailwindcss","js"]
+    },
+    {
         "id":0,
         "name":"Ferrucci",
         "url" : "https://ferrucci.com.br",
         "cover": "assets/images/ferrucci.jpg",
         "description" : "<p>E-commerce desenvolvido na <b>Tribox</b>, para a <b>Ferrucci Calçados</b>. O projeto possui integração com ERP e área administrativa gerencial</p>",
-        "techs": ["php","mysql","sass","jquery","semantic-ui"]
+        "techs": ["wordpress","php","mysql","sass","jquery","semantic-ui"]
     },
     {
         "id":1,
@@ -13,14 +45,6 @@ const dataProjects = [
         "url" : "https://mariotta.com.br",
         "cover": "assets/images/mariotta.jpg",
         "description" : "<p>Site institucional desenvolvido na <b>Tribox</b>, para a <b>Mariotta Calçados</b>. </p> <p> O projeto visa divulgar a empresa e as coleções ques estão em vigor. Possui área administrativa para gerenciamento das coleções.</p>",
-        "techs": ["php","mysql","sass","jquery","semantic-ui"]
-    },
-    {
-        "id":2,
-        "name":"Back to Black",
-        "url" : "https://btb.com.br",
-        "cover": "assets/images/backtoblack.jpg",
-        "description" : "<p>Site institucional desenvolvido na <b>Tribox</b>, para ao programa de Rádio <b>Back do Black</b>, do publicitário <b>Sérgio Scarpelli</b>. </p><p>O projeto visa divulgar os programas da rádio.</p>",
         "techs": ["php","mysql","sass","jquery","semantic-ui"]
     },
     {
@@ -49,43 +73,11 @@ const dataProjects = [
         "techs": ["php","mysql","sass","jquery","semantic-ui"]
     },
     {
-        "id":6,
-        "name":"Racing Rabbit",
-        "url" : "https://racingrabbit.com.br",
-        "cover": "assets/images/racingrabbit.jpg",
-        "description" : "<p>E-commerce desenvolvido na <b>Tribox</b>, para <b>Racing Rabbit</b>.</p> <p>Projeto desenvolvido, para venda online com cálculos de frete, intermediadore de pagamento e painel administrativo para gerenciamento de vendas e produtos.</p>",
-        "techs": ["php","mysql","sass","jquery","semantic-ui"]
-    },
-    {
-        "id":7,
-        "name":"JIDC",
-        "url" : "https://jidc.com.br",
-        "cover": "assets/images/jidc.jpg",
-        "description" : "<p>Portal de notícias desenvolvido na <b>Tribox</b>, para o <b>Jornal Independente de Dois Córregos</b>.</p> ",
-        "techs": ["wordpress","php","mysql","sass","jquery"]
-    },
-    {
-        "id":8,
-        "name":"Sergio Scarpelli",
-        "url" : "https://sergioscarpelli.com.br",
-        "cover": "assets/images/sergioscarpelli.jpg",
-        "description" : "<p>Site institucional desenvolvido na <b>Tribox</b>, para o <b>Sergio Scarpelli</b>, Creative Director & Copyrighter.</p> ",
-        "techs": ["wordpress","php","mysql","sass","jquery"]
-    },
-    {
         "id":9,
         "name":"Turismo da Gente",
         "url" : "https://turismodagente.com.br",
         "cover": "assets/images/turismodagente.jpg",
         "description" : "<p>Site institucional desenvolvido na <b>Tribox</b>, para o portal<b>Turismo da Gente</b>.</p> <p>Um projeto da Cart SP, para divulgar pontos turísticos do interio paulista.</p> ",
-        "techs": ["wordpress","php","mysql","sass","jquery"]
-    },
-    {
-        "id":10,
-        "name":"Grupo FRJR",
-        "url" : "https://frjr.com.br",
-        "cover": "assets/images/frjr.jpg",
-        "description" : "<p>Site institucional desenvolvido na <b>Tribox</b>, em parceria com a <b>Oficina de Comunicação</b> para o <b>Grupo FRJR</b>.</p> <p>Um projeto o grupo de empreendimentos imobiliários de MG.</p> ",
         "techs": ["wordpress","php","mysql","sass","jquery"]
     },
     {
