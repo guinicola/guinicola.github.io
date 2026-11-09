@@ -1,10 +1,11 @@
 {
   "name": "guinicola.github.io",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My Personal Portfolio",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwindcss -i ./resources/css/input.css -o ./resources/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./resources/css/input.css -o ./resources/css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,16 +17,8 @@
     "url": "https://github.com/guinicola/guinicola.github.io/issues"
   },
   "homepage": "https://github.com/guinicola/guinicola.github.io#readme",
-  "dependencies": {
-    "axios": "^1.4.0",
-    "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.10.5"
-  },
   "devDependencies": {
-    "browser-sync": "^2.29.1",
-    "gulp": "^4.0.2",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.56.1"
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
   }
 }
